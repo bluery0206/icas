@@ -1,0 +1,629 @@
+# ============================================================
+# Windows 11 Hosts File - College IT Policy
+# Information Systems Department
+# Last Updated: April 7, 2026
+#
+# PURPOSE: Block inappropriate/distracting content while
+#          allowing educationally relevant websites.
+#
+# DEPLOYMENT: Replace C:\Windows\System32\drivers\etc\hosts
+# ============================================================
+
+# --- Localhost (DO NOT REMOVE) ---
+127.0.0.1       localhost
+::1             localhost
+
+# ============================================================
+# ALLOWED — IT / Information Systems (DO NOT BLOCK THESE)
+# ============================================================
+# --- Productivity & Collaboration ---
+# google.com, mail.google.com, drive.google.com
+# docs.google.com, sheets.google.com, slides.google.com
+# classroom.google.com, meet.google.com
+# youtube.com (education)
+# zoom.us, slack.com, notion.so, trello.com, asana.com
+# miro.com, airtable.com
+#
+# --- Development & IT Tools ---
+# github.com, gitlab.com, bitbucket.org
+# figma.com, adobe.com, canva.com
+# stackoverflow.com, stackexchange.com
+# codepen.io, jsfiddle.net, replit.com, codesandbox.io
+# dev.to, medium.com, hashnode.com
+# npmjs.com, pypi.org, packagist.org, nuget.org
+# leetcode.com, hackerrank.com, freecodecamp.org
+# w3schools.com, mdn.web.docs (developer.mozilla.org)
+# digitalocean.com, heroku.com
+# aws.amazon.com, azure.microsoft.com, cloud.google.com
+# vercel.com, netlify.com, railway.app
+# postman.com, insomnia.rest
+# docker.com, kubernetes.io, terraform.io
+# jetbrains.com, visualstudio.com, code.visualstudio.com
+#
+# --- Microsoft / Office ---
+# microsoft.com, office.com, office365.com
+# teams.microsoft.com, sharepoint.com, onedrive.live.com
+# outlook.com, live.com
+#
+# --- Reference & Learning ---
+# wikipedia.org, wikimedia.org
+# coursera.org, edx.org, udemy.com, pluralsight.com
+# lynda.com, khanacademy.org
+# linkedin.com (professional networking)
+# facebook.com (institutional pages)
+# ============================================================
+
+
+# ============================================================
+# BLOCK: Adult / 18+ Content
+# ============================================================
+0.0.0.0 pornhub.com
+0.0.0.0 www.pornhub.com
+0.0.0.0 xvideos.com
+0.0.0.0 www.xvideos.com
+0.0.0.0 xnxx.com
+0.0.0.0 www.xnxx.com
+0.0.0.0 xhamster.com
+0.0.0.0 www.xhamster.com
+0.0.0.0 redtube.com
+0.0.0.0 www.redtube.com
+0.0.0.0 youporn.com
+0.0.0.0 www.youporn.com
+0.0.0.0 brazzers.com
+0.0.0.0 www.brazzers.com
+0.0.0.0 onlyfans.com
+0.0.0.0 www.onlyfans.com
+0.0.0.0 fapello.com
+0.0.0.0 www.fapello.com
+0.0.0.0 spankbang.com
+0.0.0.0 www.spankbang.com
+0.0.0.0 tube8.com
+0.0.0.0 www.tube8.com
+0.0.0.0 beeg.com
+0.0.0.0 www.beeg.com
+0.0.0.0 tnaflix.com
+0.0.0.0 www.tnaflix.com
+0.0.0.0 porntrex.com
+0.0.0.0 www.porntrex.com
+0.0.0.0 porntube.com
+0.0.0.0 www.porntube.com
+0.0.0.0 4tube.com
+0.0.0.0 www.4tube.com
+0.0.0.0 eporner.com
+0.0.0.0 www.eporner.com
+0.0.0.0 hentaihaven.xxx
+0.0.0.0 www.hentaihaven.xxx
+0.0.0.0 rule34.xxx
+0.0.0.0 www.rule34.xxx
+0.0.0.0 nhentai.net
+0.0.0.0 www.nhentai.net
+0.0.0.0 literotica.com
+0.0.0.0 www.literotica.com
+0.0.0.0 chaturbate.com
+0.0.0.0 www.chaturbate.com
+0.0.0.0 livejasmin.com
+0.0.0.0 www.livejasmin.com
+0.0.0.0 stripchat.com
+0.0.0.0 www.stripchat.com
+0.0.0.0 cam4.com
+0.0.0.0 www.cam4.com
+0.0.0.0 bongacams.com
+0.0.0.0 www.bongacams.com
+0.0.0.0 myfreecams.com
+0.0.0.0 www.myfreecams.com
+0.0.0.0 jasmin.com
+0.0.0.0 www.jasmin.com
+0.0.0.0 camsoda.com
+0.0.0.0 www.camsoda.com
+0.0.0.0 flirt4free.com
+0.0.0.0 www.flirt4free.com
+0.0.0.0 ifeelmyself.com
+0.0.0.0 www.ifeelmyself.com
+0.0.0.0 adultfriendfinder.com
+0.0.0.0 www.adultfriendfinder.com
+0.0.0.0 ashley-madison.com
+0.0.0.0 ashleymadison.com
+0.0.0.0 www.ashleymadison.com
+# --- Additional adult video/tube sites ---
+0.0.0.0 drtuber.com
+0.0.0.0 www.drtuber.com
+0.0.0.0 nuvid.com
+0.0.0.0 www.nuvid.com
+0.0.0.0 txxx.com
+0.0.0.0 www.txxx.com
+0.0.0.0 hdzog.com
+0.0.0.0 www.hdzog.com
+0.0.0.0 upornia.com
+0.0.0.0 www.upornia.com
+0.0.0.0 vporn.com
+0.0.0.0 www.vporn.com
+0.0.0.0 sexvid.xxx
+0.0.0.0 www.sexvid.xxx
+0.0.0.0 xmoviesforyou.com
+0.0.0.0 www.xmoviesforyou.com
+0.0.0.0 fuq.com
+0.0.0.0 www.fuq.com
+0.0.0.0 analdin.com
+0.0.0.0 www.analdin.com
+0.0.0.0 alphaporno.com
+0.0.0.0 www.alphaporno.com
+0.0.0.0 gotporn.com
+0.0.0.0 www.gotporn.com
+0.0.0.0 goodporn.to
+0.0.0.0 www.goodporn.to
+0.0.0.0 tubegalore.com
+0.0.0.0 www.tubegalore.com
+0.0.0.0 tubepleasure.com
+0.0.0.0 www.tubepleasure.com
+0.0.0.0 porndig.com
+0.0.0.0 www.porndig.com
+0.0.0.0 wetplace.com
+0.0.0.0 www.wetplace.com
+0.0.0.0 sunporno.com
+0.0.0.0 www.sunporno.com
+0.0.0.0 sexu.com
+0.0.0.0 www.sexu.com
+0.0.0.0 boysfood.com
+0.0.0.0 ashemaletube.com
+0.0.0.0 www.ashemaletube.com
+0.0.0.0 shemale.xxx
+0.0.0.0 trannytube.tv
+0.0.0.0 www.trannytube.tv
+# --- Adult dating / hookup ---
+0.0.0.0 fling.com
+0.0.0.0 www.fling.com
+0.0.0.0 casualx.com
+0.0.0.0 www.casualx.com
+0.0.0.0 wishtinder.com
+0.0.0.0 www.wishtinder.com
+0.0.0.0 seeking.com
+0.0.0.0 www.seeking.com
+0.0.0.0 alt.com
+0.0.0.0 www.alt.com
+0.0.0.0 fetlife.com
+0.0.0.0 www.fetlife.com
+0.0.0.0 swinglifestyle.com
+0.0.0.0 www.swinglifestyle.com
+0.0.0.0 benaughty.com
+0.0.0.0 www.benaughty.com
+0.0.0.0 iamnaughty.com
+0.0.0.0 www.iamnaughty.com
+0.0.0.0 xmatch.com
+0.0.0.0 www.xmatch.com
+# --- Adult content CDNs / trackers commonly used ---
+0.0.0.0 trafficjunky.net
+0.0.0.0 www.trafficjunky.net
+0.0.0.0 juicyads.com
+0.0.0.0 www.juicyads.com
+0.0.0.0 exoclick.com
+0.0.0.0 www.exoclick.com
+0.0.0.0 adspyglass.com
+0.0.0.0 www.adspyglass.com
+# --- Hentai / illustrated adult ---
+0.0.0.0 hanime.tv
+0.0.0.0 www.hanime.tv
+0.0.0.0 hentai-foundry.com
+0.0.0.0 www.hentai-foundry.com
+0.0.0.0 e-hentai.org
+0.0.0.0 www.e-hentai.org
+0.0.0.0 exhentai.org
+0.0.0.0 www.exhentai.org
+0.0.0.0 luscious.net
+0.0.0.0 www.luscious.net
+0.0.0.0 hentai2read.com
+0.0.0.0 www.hentai2read.com
+0.0.0.0 fakku.net
+0.0.0.0 www.fakku.net
+
+
+# ============================================================
+# BLOCK: Social Media (Non-Educational / Distracting)
+# ============================================================
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 vm.tiktok.com
+0.0.0.0 m.tiktok.com
+0.0.0.0 tiktokv.com
+0.0.0.0 musically.com
+0.0.0.0 www.musically.com
+0.0.0.0 snapchat.com
+0.0.0.0 www.snapchat.com
+0.0.0.0 sc-cdn.net
+0.0.0.0 twitter.com
+0.0.0.0 www.twitter.com
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+0.0.0.0 t.co
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 cdninstagram.com
+0.0.0.0 pinterest.com
+0.0.0.0 www.pinterest.com
+0.0.0.0 tumblr.com
+0.0.0.0 www.tumblr.com
+0.0.0.0 twitch.tv
+0.0.0.0 www.twitch.tv
+0.0.0.0 discord.com
+0.0.0.0 www.discord.com
+0.0.0.0 discordapp.com
+0.0.0.0 4chan.org
+0.0.0.0 www.4chan.org
+0.0.0.0 boards.4chan.org
+0.0.0.0 9gag.com
+0.0.0.0 www.9gag.com
+0.0.0.0 ifunny.co
+0.0.0.0 www.ifunny.co
+0.0.0.0 vk.com
+0.0.0.0 www.vk.com
+0.0.0.0 ok.ru
+0.0.0.0 www.ok.ru
+0.0.0.0 weibo.com
+0.0.0.0 www.weibo.com
+0.0.0.0 qq.com
+0.0.0.0 www.qq.com
+
+
+# ============================================================
+# BLOCK: Online Games & Gaming Platforms
+# ============================================================
+0.0.0.0 steampowered.com
+0.0.0.0 www.steampowered.com
+0.0.0.0 store.steampowered.com
+0.0.0.0 steamcommunity.com
+0.0.0.0 www.steamcommunity.com
+0.0.0.0 steam.com
+0.0.0.0 www.steam.com
+0.0.0.0 epicgames.com
+0.0.0.0 www.epicgames.com
+0.0.0.0 store.epicgames.com
+0.0.0.0 fortnite.com
+0.0.0.0 www.fortnite.com
+0.0.0.0 origin.com
+0.0.0.0 www.origin.com
+0.0.0.0 ea.com
+0.0.0.0 www.ea.com
+0.0.0.0 ubisoft.com
+0.0.0.0 www.ubisoft.com
+0.0.0.0 uplay.com
+0.0.0.0 www.uplay.com
+0.0.0.0 battle.net
+0.0.0.0 www.battle.net
+0.0.0.0 blizzard.com
+0.0.0.0 www.blizzard.com
+0.0.0.0 gog.com
+0.0.0.0 www.gog.com
+0.0.0.0 roblox.com
+0.0.0.0 www.roblox.com
+0.0.0.0 minecraft.net
+0.0.0.0 www.minecraft.net
+0.0.0.0 poki.com
+0.0.0.0 www.poki.com
+0.0.0.0 addictinggames.com
+0.0.0.0 www.addictinggames.com
+0.0.0.0 miniclip.com
+0.0.0.0 www.miniclip.com
+0.0.0.0 crazygames.com
+0.0.0.0 www.crazygames.com
+0.0.0.0 y8.com
+0.0.0.0 www.y8.com
+0.0.0.0 friv.com
+0.0.0.0 www.friv.com
+0.0.0.0 games.co.uk
+0.0.0.0 agame.com
+0.0.0.0 www.agame.com
+0.0.0.0 kongregate.com
+0.0.0.0 www.kongregate.com
+0.0.0.0 armor.games
+0.0.0.0 armorgames.com
+0.0.0.0 www.armorgames.com
+0.0.0.0 coolmathgames.com
+0.0.0.0 www.coolmathgames.com
+0.0.0.0 leagueoflegends.com
+0.0.0.0 www.leagueoflegends.com
+0.0.0.0 dota2.com
+0.0.0.0 www.dota2.com
+0.0.0.0 valvesoftware.com
+0.0.0.0 www.valvesoftware.com
+0.0.0.0 itch.io
+0.0.0.0 www.itch.io
+0.0.0.0 nexusmods.com
+0.0.0.0 www.nexusmods.com
+0.0.0.0 gamespot.com
+0.0.0.0 www.gamespot.com
+0.0.0.0 ign.com
+0.0.0.0 www.ign.com
+0.0.0.0 pcgamer.com
+0.0.0.0 www.pcgamer.com
+0.0.0.0 kotaku.com
+0.0.0.0 www.kotaku.com
+# --- Console / mobile gaming portals ---
+0.0.0.0 playstation.com
+0.0.0.0 www.playstation.com
+0.0.0.0 store.playstation.com
+0.0.0.0 xbox.com
+0.0.0.0 www.xbox.com
+0.0.0.0 xboxlive.com
+0.0.0.0 www.xboxlive.com
+0.0.0.0 nintendo.com
+0.0.0.0 www.nintendo.com
+0.0.0.0 eshop.nintendo.com
+0.0.0.0 supercell.com
+0.0.0.0 www.supercell.com
+0.0.0.0 clashofclans.com
+0.0.0.0 www.clashofclans.com
+0.0.0.0 clashroyale.com
+0.0.0.0 www.clashroyale.com
+0.0.0.0 brawlstars.com
+0.0.0.0 www.brawlstars.com
+0.0.0.0 hayday.com
+0.0.0.0 www.hayday.com
+# --- Online/browser RPG & MOBA ---
+0.0.0.0 runescape.com
+0.0.0.0 www.runescape.com
+0.0.0.0 oldschool.runescape.com
+0.0.0.0 jagex.com
+0.0.0.0 www.jagex.com
+0.0.0.0 guildwars2.com
+0.0.0.0 www.guildwars2.com
+0.0.0.0 worldofwarcraft.com
+0.0.0.0 www.worldofwarcraft.com
+0.0.0.0 wowhead.com
+0.0.0.0 www.wowhead.com
+0.0.0.0 finalfantasyxiv.com
+0.0.0.0 www.finalfantasyxiv.com
+0.0.0.0 na.finalfantasyxiv.com
+0.0.0.0 us.battle.net
+0.0.0.0 eu.battle.net
+0.0.0.0 overwatch.blizzard.com
+0.0.0.0 diablo.blizzard.com
+0.0.0.0 hearthstone.blizzard.com
+0.0.0.0 smite.com
+0.0.0.0 www.smite.com
+0.0.0.0 heroesofthestorm.blizzard.com
+0.0.0.0 starcraft2.com
+0.0.0.0 www.starcraft2.com
+0.0.0.0 arena.net
+0.0.0.0 www.arena.net
+0.0.0.0 tibiaonline.com
+0.0.0.0 www.tibiaonline.com
+0.0.0.0 tibia.com
+0.0.0.0 www.tibia.com
+# --- FPS & competitive ---
+0.0.0.0 playvalorant.com
+0.0.0.0 www.playvalorant.com
+0.0.0.0 valorant.com
+0.0.0.0 www.valorant.com
+0.0.0.0 apexlegends.com
+0.0.0.0 www.apexlegends.com
+0.0.0.0 respawn.com
+0.0.0.0 www.respawn.com
+0.0.0.0 callofduty.com
+0.0.0.0 www.callofduty.com
+0.0.0.0 activision.com
+0.0.0.0 www.activision.com
+0.0.0.0 warzone.com
+0.0.0.0 www.warzone.com
+0.0.0.0 pubg.com
+0.0.0.0 www.pubg.com
+0.0.0.0 battlegrounds.pubg.com
+0.0.0.0 escapefromtarkov.com
+0.0.0.0 www.escapefromtarkov.com
+0.0.0.0 rainbow6.ubisoft.com
+0.0.0.0 far-cry.ubisoft.com
+0.0.0.0 understood.ubisoft.com
+# --- Esports & game news ---
+0.0.0.0 esports.com
+0.0.0.0 www.esports.com
+0.0.0.0 liquipedia.net
+0.0.0.0 www.liquipedia.net
+0.0.0.0 vlr.gg
+0.0.0.0 www.vlr.gg
+0.0.0.0 hltv.org
+0.0.0.0 www.hltv.org
+0.0.0.0 dotabuff.com
+0.0.0.0 www.dotabuff.com
+0.0.0.0 op.gg
+0.0.0.0 www.op.gg
+0.0.0.0 mobafire.com
+0.0.0.0 www.mobafire.com
+0.0.0.0 gamesradar.com
+0.0.0.0 www.gamesradar.com
+0.0.0.0 polygon.com
+0.0.0.0 www.polygon.com
+# --- Game streaming / video ---
+0.0.0.0 mixer.com
+0.0.0.0 www.mixer.com
+0.0.0.0 dlive.tv
+0.0.0.0 www.dlive.tv
+0.0.0.0 trovo.live
+0.0.0.0 www.trovo.live
+0.0.0.0 nimo.tv
+0.0.0.0 www.nimo.tv
+0.0.0.0 caffeine.tv
+0.0.0.0 www.caffeine.tv
+# --- Unblocked game proxy sites (commonly used by students) ---
+0.0.0.0 unblocked-games.com
+0.0.0.0 www.unblocked-games.com
+0.0.0.0 unblockedgames77.com
+0.0.0.0 www.unblockedgames77.com
+0.0.0.0 unblockedgames911.com
+0.0.0.0 www.unblockedgames911.com
+0.0.0.0 unblockedgames66.com
+0.0.0.0 www.unblockedgames66.com
+0.0.0.0 unblocked.games
+0.0.0.0 holyublockedgames.com
+0.0.0.0 www.holyublockedgames.com
+0.0.0.0 tyrone.games
+0.0.0.0 www.tyrone.games
+0.0.0.0 1v1.lol
+0.0.0.0 www.1v1.lol
+0.0.0.0 retrobowl.me
+0.0.0.0 www.retrobowl.me
+0.0.0.0 papergames.io
+0.0.0.0 www.papergames.io
+# --- .io browser games ---
+0.0.0.0 agar.io
+0.0.0.0 www.agar.io
+0.0.0.0 slither.io
+0.0.0.0 www.slither.io
+0.0.0.0 diep.io
+0.0.0.0 www.diep.io
+0.0.0.0 krunker.io
+0.0.0.0 www.krunker.io
+0.0.0.0 shellshock.io
+0.0.0.0 www.shellshock.io
+0.0.0.0 surviv.io
+0.0.0.0 www.surviv.io
+0.0.0.0 zombsroyale.io
+0.0.0.0 www.zombsroyale.io
+0.0.0.0 moomoo.io
+0.0.0.0 www.moomoo.io
+0.0.0.0 starblast.io
+0.0.0.0 www.starblast.io
+0.0.0.0 generals.io
+0.0.0.0 www.generals.io
+0.0.0.0 brutal.io
+0.0.0.0 www.brutal.io
+
+
+# ============================================================
+# BLOCK: Gambling
+# ============================================================
+0.0.0.0 bet365.com
+0.0.0.0 www.bet365.com
+0.0.0.0 pointsbet.com
+0.0.0.0 www.pointsbet.com
+0.0.0.0 draftkings.com
+0.0.0.0 www.draftkings.com
+0.0.0.0 fanduel.com
+0.0.0.0 www.fanduel.com
+0.0.0.0 betway.com
+0.0.0.0 www.betway.com
+0.0.0.0 pokerstars.com
+0.0.0.0 www.pokerstars.com
+0.0.0.0 888casino.com
+0.0.0.0 www.888casino.com
+0.0.0.0 casinoguru.com
+0.0.0.0 www.casinoguru.com
+0.0.0.0 casumo.com
+0.0.0.0 www.casumo.com
+0.0.0.0 slotscalendar.com
+0.0.0.0 www.slotscalendar.com
+0.0.0.0 betonline.ag
+0.0.0.0 bovada.lv
+0.0.0.0 www.bovada.lv
+0.0.0.0 mybookie.ag
+0.0.0.0 sportsbetting.ag
+
+
+# ============================================================
+# BLOCK: Piracy / Illegal Download Sites
+# ============================================================
+0.0.0.0 thepiratebay.org
+0.0.0.0 www.thepiratebay.org
+0.0.0.0 1337x.to
+0.0.0.0 www.1337x.to
+0.0.0.0 rarbg.to
+0.0.0.0 yts.mx
+0.0.0.0 www.yts.mx
+0.0.0.0 kickasstorrents.com
+0.0.0.0 www.kickasstorrents.com
+0.0.0.0 torrentz2.eu
+0.0.0.0 www.torrentz2.eu
+0.0.0.0 nyaa.si
+0.0.0.0 www.nyaa.si
+0.0.0.0 fmovies.to
+0.0.0.0 www.fmovies.to
+0.0.0.0 123movies.com
+0.0.0.0 putlocker.com
+0.0.0.0 www.putlocker.com
+0.0.0.0 soap2day.to
+0.0.0.0 www.soap2day.to
+0.0.0.0 opensubtitles.org
+0.0.0.0 www.opensubtitles.org
+
+
+# ============================================================
+# BLOCK: Anonymizers / VPN / Proxy Bypass Tools
+# ============================================================
+0.0.0.0 hidemyass.com
+0.0.0.0 www.hidemyass.com
+0.0.0.0 hide.me
+0.0.0.0 www.hide.me
+0.0.0.0 anonymouse.org
+0.0.0.0 www.anonymouse.org
+0.0.0.0 proxysite.com
+0.0.0.0 www.proxysite.com
+0.0.0.0 kproxy.com
+0.0.0.0 www.kproxy.com
+0.0.0.0 croxyproxy.com
+0.0.0.0 www.croxyproxy.com
+0.0.0.0 ultrasurf.us
+0.0.0.0 www.ultrasurf.us
+0.0.0.0 zenmate.com
+0.0.0.0 www.zenmate.com
+0.0.0.0 hotspotshield.com
+0.0.0.0 www.hotspotshield.com
+0.0.0.0 tunnelbear.com
+0.0.0.0 www.tunnelbear.com
+
+
+# ============================================================
+# BLOCK: Cheating / Essay Mills / Contract Cheating
+# ============================================================
+0.0.0.0 chegg.com
+0.0.0.0 www.chegg.com
+0.0.0.0 coursehero.com
+0.0.0.0 www.coursehero.com
+0.0.0.0 essayshark.com
+0.0.0.0 www.essayshark.com
+0.0.0.0 essaybot.com
+0.0.0.0 www.essaybot.com
+0.0.0.0 paperhelp.org
+0.0.0.0 www.paperhelp.org
+0.0.0.0 edubirdie.com
+0.0.0.0 www.edubirdie.com
+0.0.0.0 papersowl.com
+0.0.0.0 www.papersowl.com
+0.0.0.0 writepaper.com
+0.0.0.0 www.writepaper.com
+0.0.0.0 essays.io
+0.0.0.0 homeworkmarket.com
+0.0.0.0 www.homeworkmarket.com
+0.0.0.0 sweetstudy.com
+0.0.0.0 www.sweetstudy.com
+
+
+# ============================================================
+# BLOCK: Misc Distracting / Inappropriate Content
+# ============================================================
+0.0.0.0 buzzfeed.com
+0.0.0.0 www.buzzfeed.com
+0.0.0.0 boredpanda.com
+0.0.0.0 www.boredpanda.com
+0.0.0.0 memedroid.com
+0.0.0.0 www.memedroid.com
+0.0.0.0 ebaumsworld.com
+0.0.0.0 www.ebaumsworld.com
+0.0.0.0 thechive.com
+0.0.0.0 www.thechive.com
+0.0.0.0 worldstar.com
+0.0.0.0 worldstarhiphop.com
+0.0.0.0 www.worldstarhiphop.com
+0.0.0.0 liveleak.com
+0.0.0.0 www.liveleak.com
+0.0.0.0 efukt.com
+0.0.0.0 www.efukt.com
+# (additional shock/gore sites omitted for brevity — add as needed)
+
+
+# ============================================================
+# END OF FILE
+# ============================================================
+# NOTE: A hosts file alone is NOT sufficient for full
+# enforcement. Pair this with:
+#   - DNS filtering (e.g., Cisco Umbrella, CleanBrowsing)
+#   - Network-level firewall / proxy (pfSense, Squid)
+#   - Group Policy for browser settings
+#   - Windows Defender Application Control (WDAC)
+# ============================================================
