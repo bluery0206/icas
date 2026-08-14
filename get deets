@@ -1,0 +1,29 @@
+Write-Host "`n=== PC HARDWARE ===" -ForegroundColor Cyan
+$cs = Get-CimInstance Win32_ComputerSystem
+Write-Host "PC Name       : $($cs.Manufacturer) $($cs.Model)"
+Write-Host "RAM Total     : $([math]::Round($cs.TotalPhysicalMemory/1GB,1)) GB"
+
+$cpu = Get-CimInstance Win32_Processor
+Write-Host "CPU           : $($cpu.Name)"
+
+$ram = Get-CimInstance Win32_PhysicalMemory
+foreach ($r in $ram) {
+    $type = switch ($r.SMBIOSMemoryType) {
+        20 {"DDR"}
+        21 {"DDR2"}
+        24 {"DDR3"}
+        26 {"DDR4"}
+        34 {"DDR5"}
+        default {"Unknown ($($r.SMBIOSMemoryType))"}
+    }
+    Write-Host "RAM           : $([math]::Round($r.Capacity/1GB)) GB $type"
+}
+
+$disks = Get-PhysicalDisk
+foreach ($d in $disks) {
+    Write-Host "Storage       : $([math]::Round($d.Size/1GB)) GB $($d.MediaType) ($($d.FriendlyName))"
+}
+
+$os = Get-CimInstance Win32_OperatingSystem
+Write-Host "Windows       : $($os.Caption)"
+Write-Host "Architecture  : $($os.OSArchitecture)"
